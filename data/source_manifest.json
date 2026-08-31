@@ -1,0 +1,118 @@
+{
+  "generated_on": "2026-09-01",
+  "source_policy": "Metadata and official source links only; source PDFs are not included.",
+  "years": [
+    {
+      "year": 2019,
+      "paper": {
+        "url": "https://www.nsw.gov.au/sites/default/files/noindex/2025-05/2019-hsc-mathematics-standard-2.pdf",
+        "sha256": "888b15bd85d19041e45bd4f1da129f02dd61209c4295265cebcf49c9a38518f7",
+        "pages": 34
+      },
+      "marking_guideline": {
+        "url": "https://www.nsw.gov.au/sites/default/files/noindex/2025-05/2019-hsc-mathematics-std-2-mg.pdf",
+        "sha256": "11e7e4f84b9b0bee61b9079564db00c4c622d59ececde0dde2e040d9eaf3f267",
+        "pages": 20
+      },
+      "exam_pack": "https://www.nsw.gov.au/education-and-training/nesa/curriculum/hsc-exam-papers/mathematics-standard/2019",
+      "items": 53,
+      "marks": 100
+    },
+    {
+      "year": 2020,
+      "paper": {
+        "url": "https://www.nsw.gov.au/sites/default/files/noindex/2025-05/2020-hsc-mathematics-standard-2.pdf",
+        "sha256": "8b0bfee1e5c7f9a24148c3d1223b4d05e7519c1fa4505e9d623ab6ab776c3a9c",
+        "pages": 46
+      },
+      "marking_guideline": {
+        "url": "https://www.nsw.gov.au/sites/default/files/noindex/2025-05/2020-hsc-mathematics-standard-2-mg.pdf",
+        "sha256": "70a6e7106cce5b1dc023bcae4079c16f0c7617a5f66bfafcf99820afba63a57a",
+        "pages": 23
+      },
+      "exam_pack": "https://www.nsw.gov.au/education-and-training/nesa/curriculum/hsc-exam-papers/mathematics-standard/2020",
+      "items": 54,
+      "marks": 100
+    },
+    {
+      "year": 2021,
+      "paper": {
+        "url": "https://www.nsw.gov.au/sites/default/files/noindex/2025-05/2021-hsc-mathematics-standard-2.pdf",
+        "sha256": "9ac33d0cd14625d34263b72bb27b76eca70aeb3912aeffb598c855ba72208154",
+        "pages": 46
+      },
+      "marking_guideline": {
+        "url": "https://www.nsw.gov.au/sites/default/files/noindex/2025-05/2021-hsc-mathematics-standard-2-mg.pdf",
+        "sha256": "b606a40b71f3192170a5e18bb38d75698f432a82d551ccef3a93875576ef06ac",
+        "pages": 22
+      },
+      "exam_pack": "https://www.nsw.gov.au/education-and-training/nesa/curriculum/hsc-exam-papers/mathematics-standard/2021",
+      "items": 55,
+      "marks": 100
+    },
+    {
+      "year": 2022,
+      "paper": {
+        "url": "https://www.nsw.gov.au/sites/default/files/noindex/2025-05/2022-hsc-mathematics-standard-2.pdf",
+        "sha256": "5fde50e3306f29f655427c8d7345195e5186d890201162da7587083b3f1c45ba",
+        "pages": 38
+      },
+      "marking_guideline": {
+        "url": "https://www.nsw.gov.au/sites/default/files/noindex/2025-05/2022-hsc-mathematics-standard-2-mg.pdf",
+        "sha256": "691b8a26049988a7dadde83fe5d19d134d998a1fb4d72aeda923e2affd2864fe",
+        "pages": 23
+      },
+      "exam_pack": "https://www.nsw.gov.au/education-and-training/nesa/curriculum/hsc-exam-papers/mathematics-standard/2022",
+      "items": 55,
+      "marks": 100
+    },
+    {
+      "year": 2023,
+      "paper": {
+        "url": "https://www.nsw.gov.au/sites/default/files/noindex/2025-05/2023-hsc-maths-std-2.pdf",
+        "sha256": "1fe26c8064545c216cb31d5723d11a55fa3f8c6bebe03a90e0ac6fee7d9c15f2",
+        "pages": 42
+      },
+      "marking_guideline": {
+        "url": "https://www.nsw.gov.au/sites/default/files/noindex/2025-05/2023-hsc-maths-std-2-mg.pdf",
+        "sha256": "eaade0e99edf1cd347769fc714cb410ae95b7ededab063ef793846f25d95e07c",
+        "pages": 25
+      },
+      "exam_pack": "https://www.nsw.gov.au/education-and-training/nesa/curriculum/hsc-exam-papers/mathematics-standard/2023",
+      "items": 55,
+      "marks": 100
+    },
+    {
+      "year": 2024,
+      "paper": {
+        "url": "https://www.nsw.gov.au/sites/default/files/noindex/2025-05/2024-hsc-maths-std-2.pdf",
+        "sha256": "4a2bcf37490207ea4e7e8284a667b8dd0a946f6989ccc9f3307b9073fbf1d59d",
+        "pages": 42
+      },
+      "marking_guideline": {
+        "url": "https://www.nsw.gov.au/sites/default/files/noindex/2025-05/2024-hsc-maths-std-2-mg.pdf",
+        "sha256": "85879c0bd2fe633e3663fc0f72818f3baea7224a0a79b0b37dd430fe72d9cb01",
+        "pages": 24
+      },
+      "exam_pack": "https://www.nsw.gov.au/education-and-training/nesa/curriculum/hsc-exam-papers/mathematics-standard/2024",
+      "items": 53,
+      "marks": 100
+    },
+    {
+      "year": 2025,
+      "paper": {
+        "url": "https://www.nsw.gov.au/sites/default/files/noindex/2025-10/2025-hsc-maths-standard-2.pdf",
+        "sha256": "8cc357e2089fa5bdaceb3b80221ab985cd52c2f682804d03d98588c167d11a10",
+        "pages": 42
+      },
+      "marking_guideline": {
+        "url": "https://www.nsw.gov.au/sites/default/files/noindex/2025-11/2025-hsc-maths-standard-2-mg.pdf",
+        "sha256": "ad563fd75973ceb6177e891cd93539cc7805be9cb9ca87ad8047a27bf3f5beb0",
+        "pages": 23
+      },
+      "exam_pack": "https://www.nsw.gov.au/education-and-training/nesa/curriculum/hsc-exam-papers/mathematics-standard/2025",
+      "items": 53,
+      "marks": 100
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "title": "Mathematics Standard 2 - 2017 syllabus map",
+  "scope": "The 2019-2025 HSC papers follow the 2017 Mathematics Standard Stage 6 syllabus. Year 11 material is assumed knowledge and may be examined in the Standard 2 HSC.",
+  "streams": [
+    {
+      "id": "year-12",
+      "label": "Year 12 HSC topics",
+      "topics": [
+        {"code": "MS-A4", "name": "Types of Relationships", "strand": "Algebra"},
+        {"code": "MS-M6", "name": "Non-right-angled Trigonometry", "strand": "Measurement"},
+        {"code": "MS-M7", "name": "Rates and Ratios", "strand": "Measurement"},
+        {"code": "MS-F4", "name": "Investments and Loans", "strand": "Financial Mathematics"},
+        {"code": "MS-F5", "name": "Annuities", "strand": "Financial Mathematics"},
+        {"code": "MS-S4", "name": "Bivariate Data Analysis", "strand": "Statistical Analysis"},
+        {"code": "MS-S5", "name": "The Normal Distribution", "strand": "Statistical Analysis"},
+        {"code": "MS-N2", "name": "Network Concepts", "strand": "Networks"},
+        {"code": "MS-N3", "name": "Critical Path Analysis", "strand": "Networks"}
+      ]
+    },
+    {
+      "id": "year-11",
+      "label": "Year 11 assumed knowledge",
+      "topics": [
+        {"code": "MS-A1", "name": "Formulae and Equations", "strand": "Algebra"},
+        {"code": "MS-A2", "name": "Linear Relationships", "strand": "Algebra"},
+        {"code": "MS-M1", "name": "Applications of Measurement", "strand": "Measurement"},
+        {"code": "MS-M2", "name": "Working with Time", "strand": "Measurement"},
+        {"code": "MS-F1", "name": "Money Matters", "strand": "Financial Mathematics"},
+        {"code": "MS-S1", "name": "Data Analysis", "strand": "Statistical Analysis"},
+        {"code": "MS-S2", "name": "Relative Frequency and Probability", "strand": "Statistical Analysis"}
+      ]
+    }
+  ]
+}
