@@ -98,6 +98,9 @@ h2 { margin: 0; letter-spacing: -.035em; font-size: clamp(1.8rem, 4vw, 2.7rem); 
 .source-links { display: grid; align-content: center; gap: .8rem; }
 .source-links a { padding: 1rem; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); text-decoration: none; font-weight: 700; }
 .source-links a:hover { border-color: var(--blue); color: #174ea6; }
+.catalogue-link { display: grid; gap: .45rem; }
+.catalogue-link small { color: var(--muted); font-size: .78rem; font-weight: 500; line-height: 1.4; }
+.catalogue-link:hover small { color: #3f5c92; }
 footer { padding: 1.5rem 0 3.5rem; border-top: 1px solid var(--line); color: var(--muted); font-size: .8rem; }
 
 @media (max-width: 920px) {
