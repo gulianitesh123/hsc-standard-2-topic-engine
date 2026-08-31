@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en-AU">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A personal topic-filtered index of 2019-2025 HSC Mathematics Standard 2 questions.">
+    <title>HSC Standard 2 Question Engine</title>
+    <link rel="stylesheet" href="app.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#questions">Skip to questions</a>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="#top" aria-label="HSC Standard 2 Question Engine home">
+          <span class="brand-mark" aria-hidden="true">∑</span>
+          <span>Standard 2<br><strong>Question Engine</strong></span>
+        </a>
+        <p class="header-note">2019–2025 past HSC papers · topic indexed</p>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="page-title">
+        <div>
+          <p class="eyebrow">Mathematics Standard 2</p>
+          <h1 id="page-title">Choose a topic.<br>Do the real questions.</h1>
+          <p class="hero-copy">Pick a syllabus topic, choose a question, and work through the source paper without leaving the study workspace.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#questions">Find questions</a>
+            <button class="button secondary" id="random-question" type="button">Give me one</button>
+          </div>
+        </div>
+        <aside class="hero-stat" aria-label="Question-bank coverage">
+          <strong id="hero-item-count">378</strong>
+          <span>indexed question items</span>
+          <small>7 official papers · 16 topics · 700 marks total</small>
+        </aside>
+      </section>
+
+      <section class="curriculum-section" aria-labelledby="curriculum-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Curriculum map</p>
+            <h2 id="curriculum-title">Your HSC topic list</h2>
+          </div>
+          <p id="curriculum-scope" class="section-note"></p>
+        </div>
+        <div id="curriculum-map" class="curriculum-map" aria-label="Syllabus topic filters"></div>
+      </section>
+
+      <section class="question-section" id="questions" aria-labelledby="questions-title">
+        <div class="section-heading question-heading">
+          <div>
+            <p class="eyebrow">Practice bank</p>
+            <h2 id="questions-title">Question workspace</h2>
+          </div>
+          <div class="progress-card" aria-live="polite">
+            <span>Your progress</span>
+            <strong id="progress-value">0 / 378</strong>
+            <button type="button" class="text-button" id="clear-progress">Clear</button>
+          </div>
+        </div>
+
+        <div class="library-switch" role="group" aria-label="Choose a study library">
+          <button class="library-button active" type="button" data-library="hsc" aria-pressed="true">Official HSC questions <small>378 items</small></button>
+          <button class="library-button" type="button" data-library="thsc" aria-pressed="false">THSC Standard trials <small>93 papers</small></button>
+        </div>
+
+        <form class="filters" id="hsc-filters" aria-label="Filter official HSC questions">
+          <label>
+            <span>Topic</span>
+            <select id="topic-filter" name="topic"></select>
+          </label>
+          <label>
+            <span>Exam year</span>
+            <select id="year-filter" name="year">
+              <option value="all">All years</option>
+              <option value="2025">2025</option>
+              <option value="2024">2024</option>
+              <option value="2023">2023</option>
+              <option value="2022">2022</option>
+              <option value="2021">2021</option>
+              <option value="2020">2020</option>
+              <option value="2019">2019</option>
+            </select>
+          </label>
+          <label>
+            <span>Section</span>
+            <select id="section-filter" name="section">
+              <option value="all">Both sections</option>
+              <option value="I">Section I</option>
+              <option value="II">Section II</option>
+            </select>
+          </label>
+          <label>
+            <span>Practice state</span>
+            <select id="state-filter" name="state">
+              <option value="all">Everything</option>
+              <option value="open">Not yet done</option>
+              <option value="done">Completed</option>
+            </select>
+          </label>
+          <button class="button filter-reset" type="reset">Reset filters</button>
+        </form>
+
+        <form class="filters thsc-filters" id="thsc-filters" aria-label="Filter THSC Standard trial papers" hidden>
+          <label class="search-filter">
+            <span>Find a school or paper</span>
+            <input id="thsc-search" name="search" type="search" placeholder="e.g. Barker or 2024" autocomplete="off">
+          </label>
+          <label>
+            <span>Trial year</span>
+            <select id="thsc-year-filter" name="trial-year"></select>
+          </label>
+          <button class="button filter-reset" type="reset">Reset trial filters</button>
+        </form>
+
+        <div class="results-toolbar" aria-live="polite">
+          <p id="results-summary"></p>
+          <p class="results-hint" id="results-hint"></p>
+        </div>
+        <div class="study-workspace" id="study-workspace">
+          <section class="question-pane" aria-label="Question bank">
+            <div id="question-list" class="question-list" aria-live="polite"></div>
+            <p id="empty-state" class="empty-state" hidden>No items match those filters. Try another filter or reset it.</p>
+          </section>
+          <aside class="viewer-pane" aria-label="Source document viewer">
+            <div class="viewer-toolbar">
+              <div>
+                <p class="eyebrow">Now viewing</p>
+                <h3 id="viewer-title">Loading question…</h3>
+                <p id="viewer-meta"></p>
+              </div>
+              <div class="viewer-links">
+                <a id="viewer-source" href="#" target="_blank" rel="noreferrer">Open source ↗</a>
+                <a id="viewer-download" href="#" target="_blank" rel="noreferrer">Marking guide ↗</a>
+              </div>
+            </div>
+            <iframe id="pdf-viewer" title="Selected question source PDF" loading="eager"></iframe>
+          </aside>
+        </div>
+      </section>
+
+      <section class="sources" aria-labelledby="sources-title">
+        <div>
+          <p class="eyebrow">Source notes</p>
+          <h2 id="sources-title">Built from official maps, not copied papers</h2>
+          <p>The public engine stores question identifiers, topic mappings, marks and links only. Original wording, diagrams and PDFs stay with their source. Downloaded THSC PDFs and page captures are kept only in the personal local cache.</p>
+        </div>
+        <div class="source-links">
+          <a href="https://www.nsw.gov.au/education-and-training/nesa/curriculum/mathematics/mathematics-standard-stage-6-2017" target="_blank" rel="noreferrer">NESA Mathematics Standard syllabus <span aria-hidden="true">↗</span></a>
+          <a class="catalogue-link" href="https://thsconline.github.io/s/yr12/Maths/" target="_blank" rel="noreferrer">
+            <span>THSC Online maths resource catalogue <b aria-hidden="true">↗</b></span>
+            <small>The current Standard 2 trial section has 93 papers from 2019 onwards. It is a paper library, separate from the official topic-labelled question bank until individual questions are syllabus-mapped.</small>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>For personal study. Topic mappings follow the official marking-guideline grids for each paper.</p>
+    </footer>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
