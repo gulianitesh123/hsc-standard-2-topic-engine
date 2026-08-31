@@ -32,11 +32,12 @@ from build_thsc_catalogue import trial_records
 CATALOGUE_URL = "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html"
 VIEWER_SCRIPT_URL = "https://thsconline.github.io/s/viewer.js"
 USER_AGENT = "HSC-Standard-2-Personal-Study-Cache/1.0"
+REQUEST_TIMEOUT_SECONDS = 15
 
 
 def fetch_bytes(url: str) -> bytes:
     request = Request(url, headers={"User-Agent": USER_AGENT})
-    with urlopen(request, timeout=60) as response:
+    with urlopen(request, timeout=REQUEST_TIMEOUT_SECONDS) as response:
         return response.read()
 
 
