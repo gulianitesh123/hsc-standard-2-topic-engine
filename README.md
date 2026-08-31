@@ -36,6 +36,15 @@ python3 scripts/download_thsc_personal_cache.py \
 
 The downloader is resumable and creates `manifest.json` with the catalogue source, source viewer URL, download timestamp, byte count and SHA-256 for every file. It only fetches the current Standard Maths section of the public THSC trial catalogue (93 records when this library was last indexed). Do not add the resulting PDFs or captures to the public repository unless you have the rightsholders' permission.
 
+To use those local PDFs inside the same left-bank/right-viewer workspace, start the companion server instead of `http.server`:
+
+```sh
+python3 scripts/serve_personal_workspace.py \
+  --cache-dir /path/outside-this-repository/thsc-standard-2
+```
+
+On `http://127.0.0.1:4173`, THSC trial cards use cached PDFs when present. The public GitHub Pages version never receives those files and continues to use THSC's online viewer.
+
 ## Rebuild the question metadata
 
 The checked-in bank was produced from the official paper and marking-guideline PDFs using their Mapping Grids. Keep the PDFs outside this repository, with this layout:

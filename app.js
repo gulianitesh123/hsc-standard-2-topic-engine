@@ -1,15 +1,17 @@
 const THSC_VIEWER_WORKER = "AKfycbyzcBH0M5Np7XQf4aaGktd0zgHt5Sa0CRAXiG-XiUyWd5jzEN1qLDcjXbpVgu0LKQbJ";
 
-const [curriculum, bank, thscTrials] = await Promise.all([
+const [curriculum, bank, thscTrials, localCache] = await Promise.all([
   fetch("data/curriculum.json").then((response) => response.json()),
   fetch("data/questions.json").then((response) => response.json()),
   fetch("data/thsc-standard-trials.json").then((response) => response.json()),
+  fetch("private-thsc/manifest.json").then((response) => response.ok ? response.json() : { items: [] }).catch(() => ({ items: [] })),
 ]);
 
 const doneStorageKey = "hsc-standard-2-question-engine-done";
 const doneIds = new Set(JSON.parse(localStorage.getItem(doneStorageKey) || "[]"));
 const state = { library: "hsc", topic: "all", year: "all", section: "all", practice: "all", thscSearch: "", thscYear: "all", selectedId: null };
 const byCode = new Map(curriculum.streams.flatMap((stream) => stream.topics).map((topic) => [topic.code, topic]));
+const localTrialsById = new Map((localCache.items || []).map((trial) => [trial.id, trial]));
 const elements = {
   map: document.querySelector("#curriculum-map"),
   scope: document.querySelector("#curriculum-scope"),
@@ -72,6 +74,8 @@ function officialPaperLink(question) {
 }
 
 function thscEmbedLink(trial) {
+  const localTrial = localTrialsById.get(trial.id);
+  if (localTrial?.local_file) return `private-thsc/${localTrial.local_file}`;
   return `https://thsconline.github.io/s/viewer.html?field=${encodeURIComponent(trial.title)}&base=${trial.viewer_id}&w=${THSC_VIEWER_WORKER}`;
 }
 
@@ -117,9 +121,10 @@ function setViewer(item, kind) {
   const sourceUrl = question ? officialPaperLink(question) : thscSourceLink(trial);
   const embedUrl = question ? officialPaperLink(question) : thscEmbedLink(trial);
   elements.viewerTitle.textContent = question ? `Question ${question.question}` : trial.title;
+  const localTrial = trial && localTrialsById.get(trial.id);
   elements.viewerMeta.textContent = question
     ? `${question.year} HSC · Section ${question.section} · ${question.marks} mark${question.marks === 1 ? "" : "s"} · PDF page ${question.paper_page}`
-    : `THSC Standard 2 trial paper · ${trial.year}${trial.includes_solutions ? " · includes solutions" : ""}`;
+    : `THSC Standard 2 trial paper · ${trial.year}${localTrial ? " · personal cache" : " · online viewer"}${trial.includes_solutions ? " · includes solutions" : ""}`;
   elements.viewerSource.href = sourceUrl;
   elements.viewerSource.textContent = question ? "Open official source ↗" : "Open THSC source ↗";
   elements.viewerDownload.href = trial ? sourceUrl : question.official_marking_guideline_url;
