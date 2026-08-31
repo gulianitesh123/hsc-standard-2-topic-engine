@@ -73,6 +73,7 @@ h2 { margin: 0; letter-spacing: -.035em; font-size: clamp(1.8rem, 4vw, 2.7rem); 
 .library-button:hover { border-color: #8ca4bd; }
 .library-button.active { color: white; background: var(--deep); border-color: var(--deep); }
 .filters { display: grid; grid-template-columns: 1.5fr repeat(3, 1fr) auto; gap: .8rem; padding: 1rem; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); }
+.filters[hidden] { display: none; }
 .filters label { display: grid; gap: .4rem; color: var(--muted); font-size: .76rem; font-weight: 760; letter-spacing: .03em; text-transform: uppercase; }
 .filters select, .filters input { min-width: 0; color: var(--ink); background: #f7f9fa; border: 1px solid #cbd4dd; border-radius: 8px; padding: .65rem .7rem; font-size: .92rem; font-weight: 600; text-transform: none; }
 .thsc-filters { grid-template-columns: minmax(260px, 2fr) minmax(150px, .8fr) auto; }
