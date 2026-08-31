@@ -11,6 +11,7 @@ from __future__ import annotations
 
 import argparse
 import base64
+import binascii
 import hashlib
 import html as html_module
 import json
@@ -70,7 +71,7 @@ def fetch_pdf(record: dict[str, object], workers: list[str]) -> tuple[bytes, str
             if not pdf.startswith(b"%PDF"):
                 raise RuntimeError("viewer response was not a PDF")
             return pdf, endpoint
-        except (HTTPError, URLError, ValueError, RuntimeError, UnicodeDecodeError) as error:
+        except (HTTPError, URLError, TimeoutError, OSError, ValueError, RuntimeError, UnicodeDecodeError, json.JSONDecodeError, binascii.Error) as error:
             errors.append(f"{worker[-8:]}: {error}")
     raise RuntimeError(f"Could not retrieve {title}: {'; '.join(errors)}")
 
