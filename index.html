@@ -24,7 +24,7 @@
         <div>
           <p class="eyebrow">Mathematics Standard 2</p>
           <h1 id="page-title">Choose a topic.<br>Do the real questions.</h1>
-          <p class="hero-copy">A private study index for the 2019–2025 HSC papers. Pick a syllabus topic, then open each question on its precise page in the official NESA paper.</p>
+          <p class="hero-copy">Pick a syllabus topic, choose a question, and work through the source paper without leaving the study workspace.</p>
           <div class="hero-actions">
             <a class="button primary" href="#questions">Find questions</a>
             <button class="button secondary" id="random-question" type="button">Give me one</button>
@@ -52,7 +52,7 @@
         <div class="section-heading question-heading">
           <div>
             <p class="eyebrow">Practice bank</p>
-            <h2 id="questions-title">Question finder</h2>
+            <h2 id="questions-title">Question workspace</h2>
           </div>
           <div class="progress-card" aria-live="polite">
             <span>Your progress</span>
@@ -61,7 +61,12 @@
           </div>
         </div>
 
-        <form class="filters" id="filters" aria-label="Filter questions">
+        <div class="library-switch" role="group" aria-label="Choose a study library">
+          <button class="library-button active" type="button" data-library="hsc" aria-pressed="true">Official HSC questions <small>378 items</small></button>
+          <button class="library-button" type="button" data-library="thsc" aria-pressed="false">THSC Standard trials <small>93 papers</small></button>
+        </div>
+
+        <form class="filters" id="hsc-filters" aria-label="Filter official HSC questions">
           <label>
             <span>Topic</span>
             <select id="topic-filter" name="topic"></select>
@@ -98,25 +103,55 @@
           <button class="button filter-reset" type="reset">Reset filters</button>
         </form>
 
+        <form class="filters thsc-filters" id="thsc-filters" aria-label="Filter THSC Standard trial papers" hidden>
+          <label class="search-filter">
+            <span>Find a school or paper</span>
+            <input id="thsc-search" name="search" type="search" placeholder="e.g. Barker or 2024" autocomplete="off">
+          </label>
+          <label>
+            <span>Trial year</span>
+            <select id="thsc-year-filter" name="trial-year"></select>
+          </label>
+          <button class="button filter-reset" type="reset">Reset trial filters</button>
+        </form>
+
         <div class="results-toolbar" aria-live="polite">
           <p id="results-summary"></p>
-          <p class="results-hint">Each card opens the official question and marking guide in a new tab.</p>
+          <p class="results-hint" id="results-hint"></p>
         </div>
-        <div id="question-list" class="question-list" aria-live="polite"></div>
-        <p id="empty-state" class="empty-state" hidden>No questions match those filters. Try another topic or reset the filters.</p>
+        <div class="study-workspace" id="study-workspace">
+          <section class="question-pane" aria-label="Question bank">
+            <div id="question-list" class="question-list" aria-live="polite"></div>
+            <p id="empty-state" class="empty-state" hidden>No items match those filters. Try another filter or reset it.</p>
+          </section>
+          <aside class="viewer-pane" aria-label="Source document viewer">
+            <div class="viewer-toolbar">
+              <div>
+                <p class="eyebrow">Now viewing</p>
+                <h3 id="viewer-title">Loading question…</h3>
+                <p id="viewer-meta"></p>
+              </div>
+              <div class="viewer-links">
+                <a id="viewer-source" href="#" target="_blank" rel="noreferrer">Open source ↗</a>
+                <a id="viewer-download" href="#" target="_blank" rel="noreferrer">Marking guide ↗</a>
+              </div>
+            </div>
+            <iframe id="pdf-viewer" title="Selected question source PDF" loading="eager"></iframe>
+          </aside>
+        </div>
       </section>
 
       <section class="sources" aria-labelledby="sources-title">
         <div>
           <p class="eyebrow">Source notes</p>
           <h2 id="sources-title">Built from official maps, not copied papers</h2>
-          <p>The engine stores question identifiers, topic mappings, marks and links only. The question wording, diagrams and PDFs stay on the original sources.</p>
+          <p>The public engine stores question identifiers, topic mappings, marks and links only. Original wording, diagrams and PDFs stay with their source. Downloaded THSC PDFs and page captures are kept only in the personal local cache.</p>
         </div>
         <div class="source-links">
           <a href="https://www.nsw.gov.au/education-and-training/nesa/curriculum/mathematics/mathematics-standard-stage-6-2017" target="_blank" rel="noreferrer">NESA Mathematics Standard syllabus <span aria-hidden="true">↗</span></a>
           <a class="catalogue-link" href="https://thsconline.github.io/s/yr12/Maths/" target="_blank" rel="noreferrer">
             <span>THSC Online maths resource catalogue <b aria-hidden="true">↗</b></span>
-            <small>General/Standard HSC papers shown are legacy (to 2018); the catalogue also lists 179 trial papers (163 with solutions) and 35 internal tasks (23 with solutions). These are kept separate until each source is syllabus-mapped.</small>
+            <small>The current Standard 2 trial section has 93 papers from 2019 onwards. It is a paper library, separate from the official topic-labelled question bank until individual questions are syllabus-mapped.</small>
           </a>
         </div>
       </section>

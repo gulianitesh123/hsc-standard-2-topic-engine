@@ -1,0 +1,932 @@
+[
+  {
+    "id": "thsc-abbotsleigh-2020-with-solutions",
+    "title": "Abbotsleigh 2020 w. sol",
+    "school": "Abbotsleigh",
+    "year": 2020,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-abbotsleigh-2021",
+    "title": "Abbotsleigh 2021",
+    "school": "Abbotsleigh",
+    "year": 2021,
+    "includes_solutions": false,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-abbotsleigh-2023-with-solutions",
+    "title": "Abbotsleigh 2023 w. sol",
+    "school": "Abbotsleigh",
+    "year": 2023,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-abbotsleigh-2024-with-solutions",
+    "title": "Abbotsleigh 2024 w. sol",
+    "school": "Abbotsleigh",
+    "year": 2024,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-abbotsleigh-2025",
+    "title": "Abbotsleigh 2025",
+    "school": "Abbotsleigh",
+    "year": 2025,
+    "includes_solutions": false,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-ascham-2019-with-solutions",
+    "title": "Ascham 2019 w. sol",
+    "school": "Ascham",
+    "year": 2019,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-ascham-2020",
+    "title": "Ascham 2020",
+    "school": "Ascham",
+    "year": 2020,
+    "includes_solutions": false,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-ascham-2021-with-solutions",
+    "title": "Ascham 2021 w. sol",
+    "school": "Ascham",
+    "year": 2021,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-ascham-2022-with-solutions",
+    "title": "Ascham 2022 w. sol",
+    "school": "Ascham",
+    "year": 2022,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-ascham-2023-with-solutions",
+    "title": "Ascham 2023 w. sol",
+    "school": "Ascham",
+    "year": 2023,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-ascham-2024-with-solutions",
+    "title": "Ascham 2024 w. sol",
+    "school": "Ascham",
+    "year": 2024,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-ascham-2025-with-solutions",
+    "title": "Ascham 2025 w. sol",
+    "school": "Ascham",
+    "year": 2025,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-barker-2019-with-solutions",
+    "title": "Barker 2019 w. sol",
+    "school": "Barker",
+    "year": 2019,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-barker-2020-with-solutions",
+    "title": "Barker 2020 w. sol",
+    "school": "Barker",
+    "year": 2020,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-barker-2021-with-solutions",
+    "title": "Barker 2021 w. sol",
+    "school": "Barker",
+    "year": 2021,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-barker-2022-with-solutions",
+    "title": "Barker 2022 w. sol",
+    "school": "Barker",
+    "year": 2022,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-barker-2023-with-solutions",
+    "title": "Barker 2023 w. sol",
+    "school": "Barker",
+    "year": 2023,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-barker-2024-with-solutions",
+    "title": "Barker 2024 w. sol",
+    "school": "Barker",
+    "year": 2024,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-barker-2025-with-solutions",
+    "title": "Barker 2025 w. sol",
+    "school": "Barker",
+    "year": 2025,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-blacktown-boys-2020-with-solutions",
+    "title": "Blacktown Boys 2020 w. sol",
+    "school": "Blacktown Boys",
+    "year": 2020,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-blacktown-boys-2022-with-solutions",
+    "title": "Blacktown Boys 2022 w. sol",
+    "school": "Blacktown Boys",
+    "year": 2022,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-blacktown-boys-2023-with-solutions",
+    "title": "Blacktown Boys 2023 w. sol",
+    "school": "Blacktown Boys",
+    "year": 2023,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-blacktown-boys-2024-with-solutions",
+    "title": "Blacktown Boys 2024 w. sol",
+    "school": "Blacktown Boys",
+    "year": 2024,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-blacktown-boys-2025-with-solutions",
+    "title": "Blacktown Boys 2025 w. sol",
+    "school": "Blacktown Boys",
+    "year": 2025,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-caringbah-2020-with-solutions",
+    "title": "Caringbah 2020 w. sol",
+    "school": "Caringbah",
+    "year": 2020,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-caringbah-2022-with-solutions",
+    "title": "Caringbah 2022 w. sol",
+    "school": "Caringbah",
+    "year": 2022,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-caringbah-2023-with-solutions",
+    "title": "Caringbah 2023 w. sol",
+    "school": "Caringbah",
+    "year": 2023,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-caringbah-2024-with-solutions",
+    "title": "Caringbah 2024 w. sol",
+    "school": "Caringbah",
+    "year": 2024,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-caringbah-2025-with-solutions",
+    "title": "Caringbah 2025 w. sol",
+    "school": "Caringbah",
+    "year": 2025,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-cherrybrook-tech-2021",
+    "title": "Cherrybrook Tech 2021",
+    "school": "Cherrybrook Tech",
+    "year": 2021,
+    "includes_solutions": false,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-gosford-2022",
+    "title": "Gosford 2022",
+    "school": "Gosford",
+    "year": 2022,
+    "includes_solutions": false,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-gosford-2023-with-solutions",
+    "title": "Gosford 2023 w. sol",
+    "school": "Gosford",
+    "year": 2023,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-gosford-2024-with-solutions",
+    "title": "Gosford 2024 w. sol",
+    "school": "Gosford",
+    "year": 2024,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-hills-grammar-2023-with-solutions",
+    "title": "Hills Grammar 2023 w. sol",
+    "school": "Hills Grammar",
+    "year": 2023,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-hornsby-girls-2020-with-solutions",
+    "title": "Hornsby Girls 2020 w. sol",
+    "school": "Hornsby Girls",
+    "year": 2020,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-hornsby-girls-2024-with-solutions",
+    "title": "Hornsby Girls 2024 w. sol",
+    "school": "Hornsby Girls",
+    "year": 2024,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-hornsby-girls-2025-with-solutions",
+    "title": "Hornsby Girls 2025 w. sol",
+    "school": "Hornsby Girls",
+    "year": 2025,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-hunters-hill-2020-with-solutions",
+    "title": "Hunters Hill 2020 w. sol",
+    "school": "Hunters Hill",
+    "year": 2020,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-hunters-hill-2022-with-solutions",
+    "title": "Hunters Hill 2022 w. sol",
+    "school": "Hunters Hill",
+    "year": 2022,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-hunters-hill-2023-with-solutions",
+    "title": "Hunters Hill 2023 w. sol",
+    "school": "Hunters Hill",
+    "year": 2023,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-hunters-hill-2024-with-solutions",
+    "title": "Hunters Hill 2024 w. sol",
+    "school": "Hunters Hill",
+    "year": 2024,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-hunters-hill-2025-with-solutions",
+    "title": "Hunters Hill 2025 w. sol",
+    "school": "Hunters Hill",
+    "year": 2025,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-hurlstone-2020-with-solutions",
+    "title": "Hurlstone 2020 w. sol",
+    "school": "Hurlstone",
+    "year": 2020,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-hurlstone-2022-with-solutions",
+    "title": "Hurlstone 2022 w. sol",
+    "school": "Hurlstone",
+    "year": 2022,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-hurlstone-2023-with-solutions",
+    "title": "Hurlstone 2023 w. sol",
+    "school": "Hurlstone",
+    "year": 2023,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-hurlstone-2024-with-solutions",
+    "title": "Hurlstone 2024 w. sol",
+    "school": "Hurlstone",
+    "year": 2024,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-hurlstone-2025-with-solutions",
+    "title": "Hurlstone 2025 w. sol",
+    "school": "Hurlstone",
+    "year": 2025,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-kambala-2019-with-solutions",
+    "title": "Kambala 2019 w. sol",
+    "school": "Kambala",
+    "year": 2019,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-kambala-2020-with-solutions",
+    "title": "Kambala 2020 w. sol",
+    "school": "Kambala",
+    "year": 2020,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-kambala-2021-with-solutions",
+    "title": "Kambala 2021 w. sol",
+    "school": "Kambala",
+    "year": 2021,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-kambala-2022-with-solutions",
+    "title": "Kambala 2022 w. sol",
+    "school": "Kambala",
+    "year": 2022,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-kambala-2023-with-solutions",
+    "title": "Kambala 2023 w. sol",
+    "school": "Kambala",
+    "year": 2023,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-killara-2022-with-solutions",
+    "title": "Killara 2022 w. sol",
+    "school": "Killara",
+    "year": 2022,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-killara-2023-with-solutions",
+    "title": "Killara 2023 w. sol",
+    "school": "Killara",
+    "year": 2023,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-killara-2024-with-solutions",
+    "title": "Killara 2024 w. sol",
+    "school": "Killara",
+    "year": 2024,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-killara-2025-with-solutions",
+    "title": "Killara 2025 w. sol",
+    "school": "Killara",
+    "year": 2025,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-knox-2022-with-solutions",
+    "title": "Knox 2022 w. sol",
+    "school": "Knox",
+    "year": 2022,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-knox-2023-with-solutions",
+    "title": "Knox 2023 w. sol",
+    "school": "Knox",
+    "year": 2023,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-knox-2024",
+    "title": "Knox 2024",
+    "school": "Knox",
+    "year": 2024,
+    "includes_solutions": false,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-manly-2019-with-solutions",
+    "title": "Manly 2019 w. sol",
+    "school": "Manly",
+    "year": 2019,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-manly-2020-with-solutions",
+    "title": "Manly 2020 w. sol",
+    "school": "Manly",
+    "year": 2020,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-manly-2022-with-solutions",
+    "title": "Manly 2022 w. sol",
+    "school": "Manly",
+    "year": 2022,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-manly-2023-with-solutions",
+    "title": "Manly 2023 w. sol",
+    "school": "Manly",
+    "year": 2023,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-manly-2024-with-solutions",
+    "title": "Manly 2024 w. sol",
+    "school": "Manly",
+    "year": 2024,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-merewether-2020-with-solutions",
+    "title": "Merewether 2020 w. sol",
+    "school": "Merewether",
+    "year": 2020,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-merewether-2021-with-solutions",
+    "title": "Merewether 2021 w. sol",
+    "school": "Merewether",
+    "year": 2021,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-merewether-2022-with-solutions",
+    "title": "Merewether 2022 w. sol",
+    "school": "Merewether",
+    "year": 2022,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-merewether-2023-with-solutions",
+    "title": "Merewether 2023 w. sol",
+    "school": "Merewether",
+    "year": 2023,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-merewether-2024-with-solutions",
+    "title": "Merewether 2024 w. sol",
+    "school": "Merewether",
+    "year": 2024,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-newington-2021-with-solutions",
+    "title": "Newington 2021 w. sol",
+    "school": "Newington",
+    "year": 2021,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-pymble-2019-with-solutions",
+    "title": "Pymble 2019 w. sol",
+    "school": "Pymble",
+    "year": 2019,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-pymble-2020",
+    "title": "Pymble 2020",
+    "school": "Pymble",
+    "year": 2020,
+    "includes_solutions": false,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-pymble-2022-with-solutions",
+    "title": "Pymble 2022 w. sol",
+    "school": "Pymble",
+    "year": 2022,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-pymble-2023-with-solutions",
+    "title": "Pymble 2023 w. sol",
+    "school": "Pymble",
+    "year": 2023,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-pymble-2024",
+    "title": "Pymble 2024",
+    "school": "Pymble",
+    "year": 2024,
+    "includes_solutions": false,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-riverview-2025-with-solutions",
+    "title": "Riverview 2025 w. sol",
+    "school": "Riverview",
+    "year": 2025,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-shore-2019-with-solutions",
+    "title": "Shore 2019 w. sol",
+    "school": "Shore",
+    "year": 2019,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-shore-2020-with-solutions",
+    "title": "Shore 2020 w. sol",
+    "school": "Shore",
+    "year": 2020,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-shore-2021",
+    "title": "Shore 2021",
+    "school": "Shore",
+    "year": 2021,
+    "includes_solutions": false,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-shore-2022",
+    "title": "Shore 2022",
+    "school": "Shore",
+    "year": 2022,
+    "includes_solutions": false,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-shore-2023-with-solutions",
+    "title": "Shore 2023 w. sol",
+    "school": "Shore",
+    "year": 2023,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-shore-2024-with-solutions",
+    "title": "Shore 2024 w. sol",
+    "school": "Shore",
+    "year": 2024,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-st-george-girls-2020-with-solutions",
+    "title": "St George Girls 2020 w. sol",
+    "school": "St George Girls",
+    "year": 2020,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-st-george-girls-2023-with-solutions",
+    "title": "St George Girls 2023 w. sol",
+    "school": "St George Girls",
+    "year": 2023,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-st-george-girls-2024-with-solutions",
+    "title": "St George Girls 2024 w. sol",
+    "school": "St George Girls",
+    "year": 2024,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-st-george-girls-2025-with-solutions",
+    "title": "St George Girls 2025 w. sol",
+    "school": "St George Girls",
+    "year": 2025,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-sydney-grammar-2019-with-solutions",
+    "title": "Sydney Grammar 2019 w. sol",
+    "school": "Sydney Grammar",
+    "year": 2019,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-sydney-grammar-2020-with-solutions",
+    "title": "Sydney Grammar 2020 w. sol",
+    "school": "Sydney Grammar",
+    "year": 2020,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-sydney-grammar-2021-with-solutions",
+    "title": "Sydney Grammar 2021 w. sol",
+    "school": "Sydney Grammar",
+    "year": 2021,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-sydney-grammar-2022-with-solutions",
+    "title": "Sydney Grammar 2022 w. sol",
+    "school": "Sydney Grammar",
+    "year": 2022,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-sydney-grammar-2023-with-solutions",
+    "title": "Sydney Grammar 2023 w. sol",
+    "school": "Sydney Grammar",
+    "year": 2023,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-sydney-grammar-2024-with-solutions",
+    "title": "Sydney Grammar 2024 w. sol",
+    "school": "Sydney Grammar",
+    "year": 2024,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  },
+  {
+    "id": "thsc-sydney-grammar-2025-with-solutions",
+    "title": "Sydney Grammar 2025 w. sol",
+    "school": "Sydney Grammar",
+    "year": 2025,
+    "includes_solutions": true,
+    "viewer_id": 5318,
+    "catalogue_url": "https://thsconline.github.io/s/yr12/Maths/trialpapers_general.html",
+    "source_kind": "THSC Online Standard Maths trial paper"
+  }
+]
