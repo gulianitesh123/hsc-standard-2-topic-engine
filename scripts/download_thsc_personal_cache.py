@@ -53,13 +53,15 @@ def safe_filename(title: str) -> str:
     return f"{stem}.pdf"
 
 
-def fetch_pdf(record: dict[str, object], workers: list[str]) -> tuple[bytes, str]:
+def fetch_pdf(record: dict[str, object], workers: list[str], max_worker_attempts: int = 5) -> tuple[bytes, str]:
     viewer_id = str(record["viewer_id"])
     title = str(record["title"])
     digest = hashlib.sha256(viewer_id.encode("utf-8")).hexdigest()
     encoded = urlencode({"export": "view", "base": viewer_id, "field": title, "hash": digest})
     errors: list[str] = []
-    for worker in workers:
+    start = int(hashlib.sha256(str(record["id"]).encode("utf-8")).hexdigest(), 16) % len(workers)
+    candidates = (workers[start:] + workers[:start])[:max_worker_attempts]
+    for worker in candidates:
         endpoint = f"https://script.google.com/macros/s/{worker}/exec?{encoded}"
         try:
             response = json.loads(fetch_bytes(endpoint).decode("utf-8"))
@@ -74,7 +76,7 @@ def fetch_pdf(record: dict[str, object], workers: list[str]) -> tuple[bytes, str
             return pdf, endpoint
         except (HTTPError, URLError, TimeoutError, OSError, ValueError, RuntimeError, UnicodeDecodeError, json.JSONDecodeError, binascii.Error) as error:
             errors.append(f"{worker[-8:]}: {error}")
-    raise RuntimeError(f"Could not retrieve {title}: {'; '.join(errors)}")
+    raise RuntimeError(f"Could not retrieve {title} after {len(candidates)} viewer workers: {'; '.join(errors)}")
 
 
 def render_first_page(pdf_path: Path, screenshots_dir: Path) -> Path | None:
@@ -95,6 +97,7 @@ def main() -> None:
     parser.add_argument("--limit", type=int, default=0, help="download only the first N catalogue papers (0 means all)")
     parser.add_argument("--render-first-page", action="store_true", help="capture a PNG of each downloaded paper's first page")
     parser.add_argument("--pause", type=float, default=0.35, help="seconds between new downloads")
+    parser.add_argument("--worker-attempts", type=int, default=5, help="published viewer workers to try per paper before recording a retryable failure")
     args = parser.parse_args()
 
     output_dir = args.output_dir.expanduser().resolve()
@@ -108,8 +111,9 @@ def main() -> None:
     if args.limit:
         records = records[: args.limit]
     workers = viewer_workers(fetch_bytes(VIEWER_SCRIPT_URL).decode("utf-8"))
-    existing = json.loads(manifest_path.read_text(encoding="utf-8")) if manifest_path.exists() else {"items": []}
+    existing = json.loads(manifest_path.read_text(encoding="utf-8")) if manifest_path.exists() else {"items": [], "retryable_failures": []}
     items_by_id = {item["id"]: item for item in existing.get("items", [])}
+    failures_by_id = {item["id"]: item for item in existing.get("retryable_failures", [])}
     completed = 0
 
     for index, record in enumerate(records, start=1):
@@ -123,7 +127,12 @@ def main() -> None:
             print(f"[{index}/{len(records)}] reused {record['title']}")
             continue
         print(f"[{index}/{len(records)}] downloading {record['title']}", flush=True)
-        pdf, endpoint = fetch_pdf(record, workers)
+        try:
+            pdf, endpoint = fetch_pdf(record, workers, args.worker_attempts)
+        except RuntimeError as error:
+            failures_by_id[str(record["id"])] = {**record, "last_error": str(error), "last_attempt_at": datetime.now(timezone.utc).isoformat()}
+            print(f"[{index}/{len(records)}] skipped for retry: {record['title']} ({error})", flush=True)
+            continue
         file_path.write_bytes(pdf)
         item = {
             **record,
@@ -139,12 +148,14 @@ def main() -> None:
             if screenshot:
                 item["first_page_screenshot"] = str(screenshot.relative_to(output_dir))
         items_by_id[str(record["id"])] = item
+        failures_by_id.pop(str(record["id"]), None)
         completed += 1
         manifest = {
             "generated_at": datetime.now(timezone.utc).isoformat(),
             "catalogue_url": CATALOGUE_URL,
             "scope": "Current THSC Mathematics Standard trial papers (2019 onwards), personal local cache only",
             "items": list(items_by_id.values()),
+            "retryable_failures": list(failures_by_id.values()),
         }
         manifest_path.write_text(json.dumps(manifest, indent=2) + "\n", encoding="utf-8")
         time.sleep(args.pause)
@@ -154,9 +165,10 @@ def main() -> None:
         "catalogue_url": CATALOGUE_URL,
         "scope": "Current THSC Mathematics Standard trial papers (2019 onwards), personal local cache only",
         "items": list(items_by_id.values()),
+        "retryable_failures": list(failures_by_id.values()),
     }
     manifest_path.write_text(json.dumps(manifest, indent=2) + "\n", encoding="utf-8")
-    print(f"Finished: {completed} new downloads, {len(records)} requested records. Manifest: {manifest_path}")
+    print(f"Finished: {completed} new downloads, {len(records)} requested records, {len(failures_by_id)} retryable failures. Manifest: {manifest_path}")
 
 
 if __name__ == "__main__":
