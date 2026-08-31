@@ -59,8 +59,7 @@ def fetch_pdf(record: dict[str, object], workers: list[str], max_worker_attempts
     digest = hashlib.sha256(viewer_id.encode("utf-8")).hexdigest()
     encoded = urlencode({"export": "view", "base": viewer_id, "field": title, "hash": digest})
     errors: list[str] = []
-    start = int(hashlib.sha256(str(record["id"]).encode("utf-8")).hexdigest(), 16) % len(workers)
-    candidates = (workers[start:] + workers[:start])[:max_worker_attempts]
+    candidates = workers[:max_worker_attempts]
     for worker in candidates:
         endpoint = f"https://script.google.com/macros/s/{worker}/exec?{encoded}"
         try:
