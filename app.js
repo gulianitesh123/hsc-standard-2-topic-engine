@@ -123,7 +123,7 @@ function setViewer(item, kind) {
   elements.viewerSource.href = sourceUrl;
   elements.viewerSource.textContent = question ? "Open official source ↗" : "Open THSC source ↗";
   elements.viewerDownload.href = trial ? sourceUrl : question.official_marking_guideline_url;
-  elements.viewerDownload.textContent = trial ? "Local-cache guide" : "Marking guide ↗";
+  elements.viewerDownload.textContent = trial ? "Download source ↗" : "Marking guide ↗";
   elements.viewer.src = embedUrl;
 }
 
